@@ -1,0 +1,18 @@
+<meta charset = "UTF-8">
+<script>
+
+// Solicitar ao usuário que informe três números
+var numero1 = Number(prompt("Informe o primeiro número:"));
+var numero2 = Number(prompt("Informe o segundo número:"));
+var numero3 = Number(prompt("Informe o terceiro número:"));
+
+// Identificar o menor número usando declarações else if
+if (numero1 <= numero2 && numero1 <= numero3) {
+  alert("O menor número é: " + numero1);
+} else if (numero2 <= numero1 && numero2 <= numero3) {
+  alert("O menor número é: " + numero2);
+} else if (numero3 <= numero1 && numero3 <= numero2) {
+  alert("O menor número é: " + numero3);
+}
+
+</script>
